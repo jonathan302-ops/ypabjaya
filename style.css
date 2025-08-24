@@ -15,6 +15,22 @@ section {
   text-align: center;
 }
 
+/* === Mobile khusus (HP) === */
+@media (max-width: 768px) {
+  nav {
+    display: none; /* sembunyikan menu di HP */
+  }
+
+  .cta {
+    margin-left: auto; /* tombol Daftar tetap ke kanan */
+  }
+
+  header {
+    justify-content: space-between;
+  }
+}
+
+
 /* === Header === */
 header {
   background: #0D1B2A;
@@ -176,3 +192,4 @@ footer {
     padding: 0 10px;
   }
 }
+
