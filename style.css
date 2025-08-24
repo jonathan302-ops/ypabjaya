@@ -130,3 +130,49 @@ footer {
   padding: 30px 20px;
   text-align: center;
 }
+
+/* === Responsive for Mobile === */
+@media (max-width: 768px) {
+  header {
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 10px 20px;
+  }
+
+  header nav ul {
+    flex-direction: column;
+    gap: 10px;
+    margin-top: 10px;
+  }
+
+  .cta {
+    margin-top: 10px;
+    width: 100%;
+  }
+
+  #hero {
+    height: auto;
+    padding: 60px 20px;
+  }
+
+  #hero h1 {
+    font-size: 24px;
+  }
+
+  #hero p {
+    font-size: 16px;
+  }
+
+  .cards {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    max-width: 90%;
+  }
+
+  .news-list {
+    padding: 0 10px;
+  }
+}
